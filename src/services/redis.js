@@ -7,13 +7,14 @@ import { createClient } from "redis";
 
 const redisClient = createClient(
     {
-        url:"redis://localhost:6379"
+        url:"redis://localhost:6379" // on my local system
     }
 )
 
 
 redisClient.on("error", (err) => console.log("Redis Client Error", err));
 
+// connection for the client...
 await redisClient.connect();
 
 
