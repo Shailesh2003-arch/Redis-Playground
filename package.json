@@ -1,0 +1,29 @@
+{
+  "name": "redis-playground",
+  "version": "1.0.0",
+  "description": "This is a playground for understanding how we can use redis.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shailesh2003-arch/Redis-Playground.git"
+  },
+  "keywords": [
+    "\"redis\"",
+    "\"service\"",
+    "\"cache\""
+  ],
+  "author": "Shailesh Thorat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shailesh2003-arch/Redis-Playground/issues"
+  },
+  "homepage": "https://github.com/Shailesh2003-arch/Redis-Playground#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.0",
+    "redis": "^5.8.3"
+  }
+}
